@@ -10,9 +10,8 @@ Before making a rollout decision, the company must monitor potential risks such 
 To support the recommendation, the experiment results must be analyzed using A/B testing techniques. The treatment group's performance should be compared with the control group, statistical significance should be verified through hypothesis testing, and guardrail metrics should be evaluated to ensure that the treatment delivers sustainable business value.
 
 # Task 2: Define the North Star Metric
-## North Star Metric
 
-### Selected North Star Metric: Paid Conversion Rate
+## Selected North Star Metric: Paid Conversion Rate
 
 The North Star Metric selected for this experiment is **Paid Conversion Rate**, which measures the percentage of users who convert into paying subscribers. This metric is the primary success metric because the main objective of the onboarding and activation campaign is to increase the number of users who become paying customers. An improvement in Paid Conversion Rate directly contributes to revenue growth and business performance.
 
