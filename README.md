@@ -107,7 +107,7 @@ Revenue contains a large number of zero values because most users did not conver
 
 ---
 
-## 6. Segment Distribution Across Groups
+## 6. Segment Distribution Across User Groups
 
 #### Region Distribution
 
