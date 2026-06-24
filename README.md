@@ -113,37 +113,37 @@ Revenue contains a large number of zero values because most users did not conver
 
 | Region | Control | Treatment |
 | ------ | ------: | --------: |
-| North  |     203 |       180 |
-| South  |     184 |       184 |
-| East   |     158 |       172 |
-| West   |     148 |       179 |
+| North  |     201 |       180 |
+| South  |     184 |       183 |
+| East   |     157 |       170 |
+| West   |     148 |       177 |
 
 #### Device Type Distribution
 
 | Device Type | Control | Treatment |
 | ----------- | ------: | --------: |
-| Mobile      |     428 |       436 |
-| Desktop     |     200 |       214 |
-| Tablet      |      56 |        56 |
+| Mobile      |     426 |       432 |
+| Desktop     |     200 |       213 |
+| Tablet      |      55 |        56 |
 | Missing     |       9 |         9 |
 
 #### Traffic Source Distribution
 
 | Traffic Source | Control | Treatment |
 | -------------- | ------: | --------: |
-| Organic        |     246 |       241 |
-| Paid Search    |     156 |       176 |
-| Social         |     130 |       133 |
+| Organic        |     246 |       237 |
+| Paid Search    |     155 |       176 |
+| Social         |     129 |       132 |
 | Referral       |      81 |        91 |
-| Email          |      74 |        56 |
+| Email          |      73 |        56 |
 | Missing        |       6 |        18 |
 
 #### Plan Type Distribution
 
 | Plan Type | Control | Treatment |
 | --------- | ------: | --------: |
-| Free      |     361 |       368 |
-| Basic     |     223 |       235 |
+| Free      |     360 |       366 |
+| Basic     |     221 |       232 |
 | Premium   |     109 |       112 |
 
 **Observations:**
