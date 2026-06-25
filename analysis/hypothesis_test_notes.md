@@ -68,6 +68,36 @@ The Treatment group achieved a statistically significant improvement in Paid Con
 
 Based on the statistical evidence, the Treatment campaign demonstrates a meaningful improvement in Paid Conversion Rate. However, before recommending a full rollout, the guardrail metrics such as refund rate, support ticket rate, engagement score, and average days to convert should also be reviewed to ensure there are no negative business impacts.
 
+# Task 8: Evaluate Guardrail Metrics
+
+The Treatment group achieved a statistically significant improvement in the primary metric, **Paid Conversion Rate**. However, additional guardrail metrics were evaluated to ensure that the improvement does not negatively impact customer experience or long-term business performance.
+
+| Guardrail Metric                   |   Control | Treatment | Risk Assessment                                                                                                                                                                                                                                                                              |
+| ---------------------------------- | --------: | --------: | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Refund Rate                        |     0.00% |     0.42% | Slight increase. The value is low but should be monitored after rollout.                                                                                                                                                                                                                     |
+| Support Ticket Rate                |    14.78% |    24.93% | Increased noticeably, indicating that more users required assistance during onboarding. This is a potential operational risk.                                                                                                                                                                |
+| Average Days to Convert            |      8.86 |      6.40 | Improved. Users converted more quickly, indicating a more effective onboarding experience.                                                                                                                                                                                                   |
+| Average Engagement Score           |     56.78 |     62.57 | Improved, suggesting better user interaction and product engagement.                                                                                                                                                                                                                         |
+| Average Revenue per Converted User | ₹1,630.10 |   ₹770.41 | Decreased. However, this result is influenced by a small number of exceptionally high-value customers in the Control group, which increased the average revenue. The Treatment group converted more than twice as many users (50 vs. 22), so this metric should be interpreted with caution. |
+
+## Risk Assessment
+
+The evaluation shows that the Treatment group improved the primary business objective by significantly increasing Paid Conversion Rate while also improving user engagement and reducing the average time required to convert.
+
+The main concerns are the increase in Support Ticket Rate and the slight increase in Refund Rate, which may indicate that some users require additional guidance during the onboarding process. In addition, the lower Average Revenue per Converted User appears to be influenced by a few high-value customers in the Control group rather than indicating poorer overall revenue quality.
+
+## Recommendation
+
+The experiment provides strong statistical evidence that the new onboarding and activation campaign improves Paid Conversion Rate. Based on the overall results, a **phased rollout** of the Treatment is recommended rather than an immediate rollout to all users.
+
+During the rollout, the business should closely monitor the following guardrail metrics:
+
+* Support Ticket Rate
+* Refund Rate
+* Average Revenue per Converted User
+
+If these metrics remain within acceptable business limits after rollout, the Treatment can be confidently deployed to the entire user base.
+
 
 ## Connection to Business Decision
 
