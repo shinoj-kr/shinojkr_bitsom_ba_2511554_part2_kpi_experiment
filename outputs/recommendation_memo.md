@@ -4,6 +4,18 @@
 
 The objective of this experiment is to determine whether the new onboarding and activation campaign should be launched to all users. The success of the campaign will be measured using Paid Conversion Rate, while guardrail metrics such as Refund Rate, Support Ticket Rate, Engagement Score, and Days to Convert will be monitored. A recommendation will be based on A/B test results, statistical significance, and overall business impact.
 
+
+# Task 2: North Star Metric
+
+### Selected North Star Metric: Paid Conversion Rate
+
+The North Star Metric selected for this experiment is  Paid Conversion Rate , which measures the percentage of users who convert into paying subscribers. This metric is the primary success metric because the objective of the onboarding campaign is to increase paid subscriptions.
+
+Supporting metrics such as Landing Page Visit Rate, Trial Start Rate, Onboarding Completion Rate, and Engagement Score help explain user behaviour but do not directly represent business success.
+
+Optimising Paid Conversion Rate alone may increase refunds, support requests, or reduce long-term engagement. Therefore, guardrail metrics are monitored alongside the North Star Metric to ensure sustainable business growth.
+
+
 # Task 9: Recommendation Memo
 
 ## Executive Summary
