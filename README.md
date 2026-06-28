@@ -104,7 +104,29 @@ The experiment was analysed using the following approach:
 
 ---
 
-## 6. Hypothesis Test Summary
+## 6. Data Cleaning and Preparation (Task 4)
+The experiment dataset was reviewed and validated before analysis.
+
+### Missing Values
+Missing values are identified in a small number of fields including device type, traffic source, days to convert, and engagement score. Missing values in days_to_convert are expected because many users did not convert to a paid subscription. No records are removed during this review.
+
+### Group Counts
+The dataset contains 693 users in the Control group and 715 users in the Treatment group. The group sizes are reasonably balanced and suitable for comparison.
+
+### Duplicate User IDs
+Duplicate user IDs are identified in both groups. The Control group contained 3 duplicate pairs (6 records) and the Treatment group contained 5 duplicate pairs (10 records). These duplicates are documented and reviewed during data preparation.
+
+### Invalid Binary Values
+All binary fields are validated and contained only acceptable values (0 or 1). No invalid binary values are found.
+
+### Revenue Outliers
+Revenue contains a large number of zero values because most users did not convert to paid subscriptions. Therefore, revenue outlier analysis was performed only on converted users using the IQR method. Three revenue outliers are identified in the Control group and two revenue outliers are identified in the Treatment group.
+
+### Segment Distribution Across Groups
+The distribution of users across Region, Device Type, Traffic Source, and Plan Type was reviewed for both Control and Treatment groups. No major imbalances are observed that would prevent meaningful experiment analysis.
+
+
+## 7. Hypothesis Test Summary
 
 A  One-Tailed Two-Proportion Z-Test  was performed to determine whether the Treatment group significantly improved Paid Conversion Rate.
 
@@ -138,7 +160,7 @@ The Treatment group achieved a statistically significant improvement in Paid Con
 
 ---
 
-## 7. Guardrail Metrics Considered
+## 8. Guardrail Metrics Considered
 
 The following guardrail metrics were evaluated before making the rollout recommendation.
 
@@ -154,7 +176,7 @@ The analysis identified an increase in Support Ticket Rate, indicating that the 
 
 ---
 
-## 8. Final Recommendation
+## 9. Final Recommendation
 
 The Treatment achieved a statistically significant improvement in Paid Conversion Rate.
 
@@ -166,7 +188,7 @@ However, Support Ticket Rate increased, and Desktop revenue should continue to b
 
 ---
 
-## 9. Assumptions and Limitations
+## 10. Assumptions and Limitations
 
 - Revenue outliers were identified using the IQR method but retained because they represent valid business transactions.
 - Missing values in  Days to Convert  were expected for users who did not convert.
@@ -176,7 +198,7 @@ However, Support Ticket Rate increased, and Desktop revenue should continue to b
 
 ---
 
-## 10. Screenshots Included
+## 11. Screenshots Included
 
 The repository includes the following screenshots as supporting evidence.
 
